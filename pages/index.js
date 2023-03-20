@@ -191,7 +191,7 @@ export default function Characters(props) {
   const [ next, setNext ] = useState(props.data.info.next);
   const [ loading, setLoading ] = useState("Load More....")
   const [ prevLength, setPrevLength ] = useState(0)
-  const ref = useRef(null);
+  const ref = useRef();
 
 
 
